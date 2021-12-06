@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/drawable/infoico.xml" value="0.3828125" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/drawable/login.xml" value="0.3828125" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/drawable/roundstyle.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/activity_cardviews.xml" value="0.25" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/activity_dialogo_sexo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/activity_intro.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/activity_main.xml" value="0.29846014492753625" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/activity_main2.xml" value="0.29846014492753625" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/activity_reci_view.xml" value="0.29846014492753625" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/ascreen_activity.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/calculator_activity.xml" value="0.18177083333333333" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/calculatorsalta2_activity.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/calculatorsalta_activity.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/colorpicker_activity.xml" value="0.20923913043478262" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/dialogs_fragment_activity.xml" value="0.2" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/fila.xml" value="0.1331521739130435" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/fragment_example.xml" value="0.16337386018237082" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/gridlayoutbuttons_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/gridview_frutas_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/gridview_item_activity.xml" value="0.3625" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/gridview_rowdata.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/intro_activity.xml" value="0.15760869565217392" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/itemlist.xml" value="0.29846014492753625" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/list_element.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/listaview_base.xml" value="0.1331521739130435" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/listview_activity.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/listviewcustom_activity.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/listviewcustom_item_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/listviewcustom_linea_activity.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/main.xml" value="0.29846014492753625" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/pasardatos1_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/pasardatos2_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/recyclerview_base.xml" value="0.33" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/recyclerview_fila.xml" value="0.15760869565217392" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/screen_activity.xml" value="0.25" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/seleccion_activity.xml" value="0.14764492753623187" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/sharedpreferences_login_activity.xml" value="0.25" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/webview_activity.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/zguideCiclovida_activity.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/chris/AndroidStudioProjects/Practicando/app/src/main/res/layout/zguideciclovida_activity.xml" value="0.2269021739130435" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

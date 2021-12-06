@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmetal"
+    android:orientation="vertical"
+    tools:context=".ascreen.Main">
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="Nuggets"
+        android:textColor="#ECECEC"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+  </LinearLayout>
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="426dp"
+      android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+      <Button
+          android:id="@+id/calculadora"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="120dp"
+          android:gravity="center"
+          android:onClick="calculadora"
+          android:text="Calculadora" />
+
+      <Button
+          android:id="@+id/vistaweb"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:onClick="vistaweb"
+          android:text="WebView" />
+
+      <Button
+          android:id="@+id/button"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:onClick="recyclers"
+          android:text="RecyclerView"
+          android:textColorHint="#7FDCD4" />
+
+      <Button
+          android:id="@+id/button2"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:onClick="dialogos"
+          android:text="Dialogos" />
+
+      <Button
+          android:id="@+id/button4"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:onClick="listVista"
+          android:text="ListView" />
+
+      <Button
+          android:id="@+id/button6"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:onClick="listacustom"
+          android:text="Listview custom" />
+
+      <Button
+          android:id="@+id/cicle"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:onClick="verCiclo"
+          android:text="Ciclo de Vida" />
+
+      <Button
+          android:id="@+id/button7"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:onClick="pasarDatos"
+          android:text="Datos entre Activities" />
+
+      <Button
+          android:id="@+id/button8"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:onClick="gridviewcosas"
+          android:text="GridView Frutas" />
+
+      <Button
+          android:id="@+id/button9"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:onClick="botonescolores"
+          android:text="GridLayout Botones" />
+
+      <Button
+          android:id="@+id/button10"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:onClick="picker"
+          android:text="Color Picker" />
+
+    </LinearLayout>
+  </ScrollView>
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+      android:id="@+id/floatingbutton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="right"
+      android:backgroundTint="#9F9F9F"
+      android:clickable="true"
+      android:contentDescription="TODO"
+      android:layout_marginRight="10dp"
+      app:borderWidth="0dp"
+      app:srcCompat="?attr/selectableItemBackground" />
+
+</LinearLayout>
