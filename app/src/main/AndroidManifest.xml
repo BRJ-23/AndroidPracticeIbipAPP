@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ibip" >
+    package="com.example.ibip">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,7 +10,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".spinnerConversor.MainActivity"
+            android:exported="true" />
         <activity
             android:name=".pasarDatosActivityResultadoAtrasCalculadora.MainActivity2"
             android:exported="true" />
@@ -52,7 +55,7 @@
             android:exported="true" />
         <activity
             android:name=".intro.Intro"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
