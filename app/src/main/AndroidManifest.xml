@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ibip">
+    package="com.example.ibip" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,43 +10,49 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar">
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
         <activity
-            android:name="com.example.ibip.colorpicker.MainActivity"
+            android:name=".pasarDatosActivityResultadoAtrasCalculadora.MainActivity2"
             android:exported="true" />
         <activity
-            android:name="com.example.ibip.sharedPreferencesLogin.MainActivity"
+            android:name=".pasarDatosActivityResultadoAtrasCalculadora.MainActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.ibip.gridviewfrutas.GridItemActivity"
+            android:name=".colorpicker.MainActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.ibip.gridviewfrutas.MainActivity"
+            android:name=".sharedPreferencesLogin.MainActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.ibip.gridlayoutButtons.MainActivity"
+            android:name=".gridviewfrutas.GridItemActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.ibip.pasarDatosEntreActivity.MainActivity2"
+            android:name=".gridviewfrutas.MainActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.ibip.pasarDatosEntreActivity.MainActivity"
+            android:name=".gridlayoutButtons.MainActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.ibip.cicloVida.MainActivity"
+            android:name=".pasarDatosEntreActivity.MainActivity2"
             android:exported="true" />
         <activity
-            android:name="com.example.ibip.listviewcustom.MainActivity"
+            android:name=".pasarDatosEntreActivity.MainActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.ibip.listview.MainActivity"
+            android:name=".cicloVida.MainActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.ibip.seleccion.MainActivity"
+            android:name=".listviewcustom.MainActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.ibip.intro.Intro"
-            android:exported="true">
+            android:name=".listview.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".seleccion.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".intro.Intro"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -54,21 +60,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.ibip.dialogos.DialogoActivity"
+            android:name=".dialogos.DialogoActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.ibip.recyclerview.MainActivity"
+            android:name=".recyclerview.MainActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.ibip.calculadora.MainActivity"
+            android:name=".calculadora.MainActivity"
             android:exported="true" />
         <activity
-            android:name="com.example.ibip.webview.MainActivity2"
+            android:name=".webview.MainActivity2"
             android:exported="true" />
         <activity
-            android:name="com.example.ibip.ascreen.Main"
-            android:exported="true">
-        </activity>
+            android:name=".ascreen.Main"
+            android:exported="true" />
     </application>
 
 </manifest>
