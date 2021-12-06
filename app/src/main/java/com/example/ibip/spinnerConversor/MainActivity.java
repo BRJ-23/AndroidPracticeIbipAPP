@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
                 resultMedida4.setText("Pulgadas: " + pulgadas);
                 resultMedida5.setText("Pies: " + pies);
             } else if (seleccion.equals("kilometro")) {
-                Double metros = value * 0.001;
+                Double metros = value * 1000;
                 Double kilometros = value;
                 Double yardas = value * 1.0936 * 1000;
                 Double pulgadas = value * 39.370 * 1000;
