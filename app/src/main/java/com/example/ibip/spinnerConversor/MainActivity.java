@@ -14,8 +14,6 @@ import android.widget.TextView;
 
 import com.example.ibip.R;
 
-import java.util.ArrayList;
-
 public class MainActivity extends AppCompatActivity {
 
     Spinner spinner;
@@ -24,19 +22,18 @@ public class MainActivity extends AppCompatActivity {
     String checker;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.spinnerconversor_activity);
-        spinner = (Spinner) findViewById(R.id.spiner);
+        spinner = (Spinner) findViewById(R.id.spinerciudad);
         et1 = (EditText) findViewById(R.id.numMedida);
 
         resultMedida = (TextView) findViewById(R.id.resulMedidas);
         resultMedida2 = (TextView)findViewById(R.id.resulMedidas2);
         resultMedida3 =(TextView) findViewById(R.id.resulMedidas3);
         resultMedida4 = (TextView)findViewById(R.id.resulMedidas4);
-        resultMedida5 =(TextView) findViewById(R.id.resulMedidas5);
+        resultMedida5 =(TextView) findViewById(R.id.resulciudad);
         String [] operaciones = {"metro","kilometro","yardas","pulgadas","pies"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, operaciones );

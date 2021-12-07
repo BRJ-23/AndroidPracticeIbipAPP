@@ -139,6 +139,13 @@
           android:onClick="calendarview"
           android:text="Calendar and Video" />
 
+      <Button
+          android:id="@+id/button14"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:onClick="ciudadEstado"
+          android:text="Spinner Ciudad" />
+
     </LinearLayout>
   </ScrollView>
 

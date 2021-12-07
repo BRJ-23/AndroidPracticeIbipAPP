@@ -127,14 +127,22 @@ public class Main extends AppCompatActivity {
     }
 
 
-    public void conversorMedidas(View view){
-        Intent i = new Intent(this, com.example.ibip.spinnerConversor.MainActivity.class);
-        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(i);
+        public void conversorMedidas(View view){
+            Intent i = new Intent(this, com.example.ibip.spinnerConversor.MainActivity.class);
+            i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
+        }
+
+        public void calendarview(View view){
+            Intent i = new Intent(this, com.example.ibip.calendarAndVideoWidget.MainActivity.class);
+            i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
+
     }
 
-    public void calendarview(View view){
-        Intent i = new Intent(this, com.example.ibip.calendarAndVideoWidget.MainActivity.class);
+
+    public void ciudadEstado(View view){
+        Intent i = new Intent(this, com.example.ibip.spinnerCiudadEstadoObj.MainActivity.class);
         i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
     }

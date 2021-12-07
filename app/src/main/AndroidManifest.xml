@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".spinnerCiudadEstadoObj.MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".calendarAndVideoWidget.MainActivity"
             android:exported="true" />
         <activity
