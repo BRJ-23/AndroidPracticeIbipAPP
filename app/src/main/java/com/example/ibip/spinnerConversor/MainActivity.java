@@ -94,22 +94,17 @@ public class MainActivity extends AppCompatActivity {
                 Double yardas = value * 1.0936;
                 Double pulgadas = value * 39.370;
                 Double pies = value * 3.2808;
-                resultMedida.setText("Metros: " + metros);
-                resultMedida2.setText("Kilometros: " + kilometros);
-                resultMedida3.setText("Yardas: " + yardas);
-                resultMedida4.setText("Pulgadas: " + pulgadas);
-                resultMedida5.setText("Pies: " + pies);
+
+                mostrarTexto(metros, kilometros, yardas, pulgadas, pies);
+
             } else if (seleccion.equals("kilometro")) {
                 Double metros = value * 1000;
                 Double kilometros = value;
                 Double yardas = value * 1.0936 * 1000;
                 Double pulgadas = value * 39.370 * 1000;
                 Double pies = value * 3.2808 * 1000;
-                resultMedida.setText("Metros: " + metros);
-                resultMedida2.setText("Kilometros: " + kilometros);
-                resultMedida3.setText("Yardas: " + yardas);
-                resultMedida4.setText("Pulgadas: " + pulgadas);
-                resultMedida5.setText("Pies: " + pies);
+
+                mostrarTexto(metros, kilometros, yardas, pulgadas, pies);
 
             } else if (seleccion.equals("yardas")) {
                 Double metros = value / 1.0936;
@@ -117,11 +112,8 @@ public class MainActivity extends AppCompatActivity {
                 Double yardas = value;
                 Double pulgadas = value * 36.000;
                 Double pies = value * 3.0000;
-                resultMedida.setText("Metros: " + metros);
-                resultMedida2.setText("Kilometros: " + kilometros);
-                resultMedida3.setText("Yardas: " + yardas);
-                resultMedida4.setText("Pulgadas: " + pulgadas);
-                resultMedida5.setText("Pies: " + pies);
+
+                mostrarTexto(metros, kilometros, yardas, pulgadas, pies);
 
             } else if (seleccion.equals("pulgadas")) {
                 Double metros = value / 39.370;
@@ -129,11 +121,9 @@ public class MainActivity extends AppCompatActivity {
                 Double yardas = value * 0.027778;
                 Double pulgadas = value;
                 Double pies = value * 0.083333;
-                resultMedida.setText("Metros: " + metros);
-                resultMedida2.setText("Kilometros: " + kilometros);
-                resultMedida3.setText("Yardas: " + yardas);
-                resultMedida4.setText("Pulgadas: " + pulgadas);
-                resultMedida5.setText("Pies: " + pies);
+
+                mostrarTexto(metros, kilometros, yardas, pulgadas, pies);
+
 
             } else if (seleccion.equals("pies")) {
                 Double metros = value / 3.2808;
@@ -141,11 +131,8 @@ public class MainActivity extends AppCompatActivity {
                 Double yardas = value * 0.33333;
                 Double pulgadas = value * 12.000;
                 Double pies = value;
-                resultMedida.setText("Metros: " + metros);
-                resultMedida2.setText("Kilometros: " + kilometros);
-                resultMedida3.setText("Yardas: " + yardas);
-                resultMedida4.setText("Pulgadas: " + pulgadas);
-                resultMedida5.setText("Pies: " + pies);
+
+                mostrarTexto(metros, kilometros, yardas, pulgadas, pies);
 
             }
 
@@ -158,6 +145,15 @@ public class MainActivity extends AppCompatActivity {
 
 
         }
+    }
+
+
+    public void mostrarTexto(double metros, double kilometros, double yardas, double pulgadas, double pies){
+        resultMedida.setText("Metros: " + metros);
+        resultMedida2.setText("Kilometros: " + kilometros);
+        resultMedida3.setText("Yardas: " + yardas);
+        resultMedida4.setText("Pulgadas: " + pulgadas);
+        resultMedida5.setText("Pies: " + pies);
     }
 
 
