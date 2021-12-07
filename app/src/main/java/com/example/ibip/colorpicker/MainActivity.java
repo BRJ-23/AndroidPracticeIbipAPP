@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
                     String hex = '#'+ Integer.toHexString(px);
                     colorview.setBackgroundColor(Color.rgb(r,g,b));
-                    values.setText("RGB: "+r+", "+g+", "+b+" \nHEX:" +hex);
+                    values.setText("RGB: "+r+", "+g+", "+b+" \nHEX:" +hex + "\n CHEEEEEEE");
                 }
                 return true;
             }
