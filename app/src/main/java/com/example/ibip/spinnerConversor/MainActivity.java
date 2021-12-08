@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         resultMedida5 =(TextView) findViewById(R.id.resulciudad);
         String [] operaciones = {"metro","kilometro","yardas","pulgadas","pies"};
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, operaciones );
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.spinner_item, operaciones );
         spinner.setAdapter(adapter);
 
         // EVENTO QUE SE ACTIVA TRAS LA MANIPULACIÓN DEL USUARIO EN UN EDITTEXT

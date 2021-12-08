@@ -49,7 +49,8 @@ public class MainActivity extends AppCompatActivity {
         paisLista.add(pais4);
         paisLista.add(pais5);
 
-        ArrayAdapter<Ciudades> adapter = new ArrayAdapter<Ciudades>(this, android.R.layout.simple_spinner_item, paisLista  );
+        ArrayAdapter<Ciudades> adapter = new ArrayAdapter<Ciudades>(this, R.layout.spinner_item, paisLista);
+
         spinner.setAdapter(adapter);
 
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
