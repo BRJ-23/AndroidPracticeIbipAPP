@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         Ciudades pais2  = new Ciudades(2, "Alemania","Berlin",41000000,289391.29, R.drawable.ab);
         Ciudades pais3  = new Ciudades(3, "Francia","Paris",44440000,289391.29, R.drawable.ac);
         Ciudades pais4  = new Ciudades(4, "Italia","Roma",40033300,119391.29, R.drawable.ad);
-        Ciudades pais5  = new Ciudades(5, "Lux","Lux",411100,9391.29, R.drawable.ae);
+        Ciudades pais5  = new Ciudades(5, "Luxemburgo","Luxemburgo",411100,9391.29, R.drawable.ae);
         paisLista.add(pais1);
         paisLista.add(pais2);
         paisLista.add(pais3);
