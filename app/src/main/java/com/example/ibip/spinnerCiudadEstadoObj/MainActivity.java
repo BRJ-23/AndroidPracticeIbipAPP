@@ -2,6 +2,7 @@ package com.example.ibip.spinnerCiudadEstadoObj;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.drawable.Drawable;
 import android.media.Image;
 import android.os.Bundle;
 import android.text.SpannableStringBuilder;
@@ -24,6 +25,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     Spinner spinner;
     TextView resultCiudad;
+    ImageView imagen;
 
 
     @Override
@@ -55,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int i, long l) {
                 Ciudades paiss = (Ciudades) parent.getSelectedItem();
                 pillarpais(paiss);
-
             }
 
             @Override
@@ -78,6 +79,8 @@ public class MainActivity extends AppCompatActivity {
         int habitantes = pas.getNumHabitantes();
         Double extension = pas.getExtensionGeo();
         int banderas = pas.getBandera();
+        imagen = (ImageView) findViewById(R.id.imgView);
+        imagen.setImageDrawable(getResources().getDrawable(pas.bandera));
         resultCiudad.setText("Pais: " + pais + "\nCapital: " + capital + "\nHabitantes: " + habitantes + "\nExtension: " + extension + "\nBanderas: " + banderas);
 
     }
