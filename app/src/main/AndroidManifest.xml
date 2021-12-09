@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".Utilities___X.adapter.MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".spinnerPepe.MainActivity"
             android:exported="true" />
         <activity

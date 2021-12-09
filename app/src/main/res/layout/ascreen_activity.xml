@@ -166,6 +166,14 @@
           android:layout_height="wrap_content"
           android:onClick="spinnerpepe"
           android:text="Spinner Inflate Pepe" />
+
+      <Button
+          android:id="@+id/button18"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:backgroundTint="#709C9C"
+          android:onClick="listviewguide"
+          android:text="Guide: Inflate Adapter" />
     </LinearLayout>
   </ScrollView>
 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+    Este xml Item del adapter va funcionar como "Plantilla" de cómo se mostrarán los datos en la lista.
+    Entonces básicamente el modelo o diseño que hagas aquí, es lo que se mostrará en el final.
+    Como este ejemplo de DNI, carnet, etc se necesita Nombre, edad y foto(Atributos del objeto).
+    Pues ya va de cabeza un ImageView y 2 TextView.
+    -->
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/imagenguia"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/textoNombre"
+        android:layout_toRightOf="@id/imagenguia"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/textoEdad"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
