@@ -154,6 +154,12 @@ public class Main extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void listviewpepe(View view){
+        Intent i = new Intent(this, com.example.ibip.listViewPepe.MainActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+    }
+
 
 
 }
