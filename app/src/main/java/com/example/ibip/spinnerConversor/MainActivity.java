@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             value = Double.parseDouble(et1.getText().toString());
             String seleccion = spinner.getSelectedItem().toString();
 
-            if (seleccion.equals("metro")) {
+            if (seleccion.equals("Metro")) {
                 Double metros = value;
                 Double kilometros = value / 1000;
                 Double yardas = value * 1.0936;
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
 
                 mostrarTexto(metros, kilometros, yardas, pulgadas, pies);
 
-            } else if (seleccion.equals("kilometro")) {
+            } else if (seleccion.equals("Kilometro")) {
                 Double metros = value * 1000;
                 Double kilometros = value;
                 Double yardas = value * 1.0936 * 1000;
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
 
                 mostrarTexto(metros, kilometros, yardas, pulgadas, pies);
 
-            } else if (seleccion.equals("yardas")) {
+            } else if (seleccion.equals("Yardas")) {
                 Double metros = value / 1.0936;
                 Double kilometros = value / 1093.6;
                 Double yardas = value;
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
                 mostrarTexto(metros, kilometros, yardas, pulgadas, pies);
 
-            } else if (seleccion.equals("pulgadas")) {
+            } else if (seleccion.equals("Pulgadas")) {
                 Double metros = value / 39.370;
                 Double kilometros = value / 39370;
                 Double yardas = value * 0.027778;
@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
                 mostrarTexto(metros, kilometros, yardas, pulgadas, pies);
 
 
-            } else if (seleccion.equals("pies")) {
+            } else if (seleccion.equals("Pies")) {
                 Double metros = value / 3.2808;
                 Double kilometros = value / 3280.8;
                 Double yardas = value * 0.33333;
