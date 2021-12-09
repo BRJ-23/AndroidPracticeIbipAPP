@@ -15,9 +15,6 @@
             android:name=".spinnerPepe.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".spinnerPepe.MainActivity"
-            android:exported="true" />
-        <activity
             android:name=".listViewPepe.MainActivity"
             android:exported="true" />
         <activity
