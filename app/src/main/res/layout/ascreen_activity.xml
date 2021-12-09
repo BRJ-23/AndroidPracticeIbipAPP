@@ -145,6 +145,13 @@
           android:layout_height="wrap_content"
           android:onClick="ciudadEstado"
           android:text="Spinner Ciudad" />
+
+      <Button
+          android:id="@+id/button15"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:onClick="smsenviar"
+          android:text="Enviar SMS" />
     </LinearLayout>
   </ScrollView>
 

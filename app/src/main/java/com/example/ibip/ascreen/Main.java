@@ -148,5 +148,12 @@ public class Main extends AppCompatActivity {
     }
 
 
+    public void smsenviar(View view){
+        Intent i = new Intent(this, com.example.ibip.enviarsms.MainActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+    }
+
+
 
 }

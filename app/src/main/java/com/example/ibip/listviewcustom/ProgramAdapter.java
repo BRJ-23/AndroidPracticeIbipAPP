@@ -44,6 +44,7 @@ public class ProgramAdapter extends ArrayAdapter<String> {
        holder.itemImage.setImageResource(imagenesLugar[position]);
        holder.ciudades.setText(ciudadesNombre[position]);
        holder.descripciones.setText(descripcionesTexto[position]);
+
        v.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View view) {
@@ -51,6 +52,7 @@ public class ProgramAdapter extends ArrayAdapter<String> {
 
            }
        });
+
 
         return v;
     }
