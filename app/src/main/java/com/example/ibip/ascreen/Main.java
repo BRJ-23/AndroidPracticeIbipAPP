@@ -15,7 +15,7 @@ import com.example.ibip.R;
 import com.example.ibip.dialogos.DialogoActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-public class Main extends AppCompatActivity {
+public class  Main extends AppCompatActivity {
 
     SharedPreferences preferences;
     SharedPreferences.Editor editor;

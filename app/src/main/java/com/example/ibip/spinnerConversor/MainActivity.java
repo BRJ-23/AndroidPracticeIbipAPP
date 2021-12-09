@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         resultMedida3 =(TextView) findViewById(R.id.resulMedidas3);
         resultMedida4 = (TextView)findViewById(R.id.resulMedidas4);
         resultMedida5 =(TextView) findViewById(R.id.resulciudad);
-        String [] operaciones = {"Metro","Kilometro","Yardas","Pulgadas","Pies"};
+        String [] operaciones = {"Metro","Kilometro","Yardas","Pulgadas","Pies",};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.spinner_item, operaciones );
         spinner.setAdapter(adapter);

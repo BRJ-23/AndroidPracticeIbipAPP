@@ -16,7 +16,6 @@ import com.example.ibip.R;
 import com.example.ibip.ascreen.Main;
 
 public class MainActivity extends AppCompatActivity {
-    static boolean active = false;
     Button btnIniciarSesion;
     CheckBox checkSesion;
     SharedPreferences preferences;
@@ -24,18 +23,6 @@ public class MainActivity extends AppCompatActivity {
     String llave = "sesion";
     EditText username;
     EditText password;
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        active = true;
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        active = false;
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
