@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         ProgramAdapter programAdapter = new ProgramAdapter(this, ciudades, descripciones, imagenes);
         lvProgram.setAdapter(programAdapter);
 
+
     }
 
 
