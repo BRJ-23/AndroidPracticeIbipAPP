@@ -16,7 +16,7 @@ public class MainActivity extends Activity implements ListView.OnItemClickListen
 
     public void onItemClick(AdapterView<?> a, View view, int position, long id){
         TextView t=(TextView)findViewById(R.id.textView);
-        ListView l=(ListView)findViewById(R.id.listView);
+        ListView l=(ListView)findViewById(R.id.listViewPais);
         String seleccionado=new String();
         SparseBooleanArray checked = l.getCheckedItemPositions();
 
@@ -38,7 +38,7 @@ public class MainActivity extends Activity implements ListView.OnItemClickListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.listview_activity);
 
-        ListView l=(ListView)findViewById(R.id.listView);
+        ListView l=(ListView)findViewById(R.id.listViewPais);
 
         l.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
         adaptador=new ArrayAdapter<String>(this,android.R.layout.simple_list_item_multiple_choice,elementos);

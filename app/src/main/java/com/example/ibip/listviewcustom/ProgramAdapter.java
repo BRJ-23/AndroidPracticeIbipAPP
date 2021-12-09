@@ -18,7 +18,7 @@ public class ProgramAdapter extends ArrayAdapter<String> {
     int[] imagenesLugar;
 
     public ProgramAdapter(Context context, String[]ciudadesNombre, String[]descripcionesTexto, int[]imagenesLugar) {
-        super(context, R.layout.listviewcustom_item_activity, R.id.nombre, ciudadesNombre);
+        super(context, R.layout.listviewcustom_item_activity, R.id.nombrePais, ciudadesNombre);
         this.context = context;
         this.imagenesLugar = imagenesLugar;
         this.ciudadesNombre = ciudadesNombre;

@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     List<InfoQueRecoger> lista = new ArrayList<>(); //Se declara la lista con el objeto que hicimos.
     Adaptador adaptador; //Se declara el adaptador
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -7,29 +7,29 @@
     <TextView
         android:text="Elige:"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/listView"
+        app:layout_constraintBottom_toTopOf="@id/listViewPais"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/labelElige" />
+        android:id="@+id/labelEligePais" />
 
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/listView"
-        app:layout_constraintTop_toBottomOf="@id/labelElige"
-        app:layout_constraintBottom_toTopOf="@id/seleccion"
+        android:id="@+id/listViewPais"
+        app:layout_constraintTop_toBottomOf="@id/labelEligePais"
+        app:layout_constraintBottom_toTopOf="@id/seleccionPais"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:choiceMode="multipleChoice"
-        android:layout_below="@+id/labelElige"
+        android:layout_below="@+id/labelEligePais"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_above="@+id/seleccion" />
+        android:layout_above="@+id/seleccionPais" />
 
     <TextView
-        android:id="@+id/seleccion"
+        android:id="@+id/seleccionPais"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -42,6 +42,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintLeft_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/listView" />
+        app:layout_constraintTop_toBottomOf="@id/listViewPais" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

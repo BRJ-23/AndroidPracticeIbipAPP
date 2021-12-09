@@ -10,14 +10,14 @@
         android:text="Elige:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/labelElige" />
+        android:id="@+id/labelEligePais" />
 
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/listView"
+        android:id="@+id/listViewPais"
         android:choiceMode="multipleChoice"
-        android:layout_below="@+id/labelElige"
+        android:layout_below="@+id/labelEligePais"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_above="@+id/textView" />

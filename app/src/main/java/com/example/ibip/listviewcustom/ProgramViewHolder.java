@@ -12,9 +12,9 @@ public class ProgramViewHolder {
     TextView ciudades;
     TextView descripciones;
     ProgramViewHolder(View view){
-        itemImage = view.findViewById(R.id.imagenCiudad);
-        ciudades = view.findViewById(R.id.nombre);
-        descripciones = view.findViewById(R.id.descripcion);
+        itemImage = view.findViewById(R.id.imagenPais);
+        ciudades = view.findViewById(R.id.nombrePais);
+        descripciones = view.findViewById(R.id.capitalPais);
     }
 
 }

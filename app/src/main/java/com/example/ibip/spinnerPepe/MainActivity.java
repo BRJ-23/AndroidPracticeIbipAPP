@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.spinner_pepe_activity);
-        sp = (Spinner) findViewById(R.id.spinner);
+        sp = (Spinner) findViewById(R.id.spinnerPais);
         listaCiudades = new ArrayList<Nombres>();
         llenar();
 
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         sp.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                TextView tv = findViewById(R.id.seleccion);
+                TextView tv = findViewById(R.id.seleccionPais);
                 tv.setText("Has pulsado: " + listaCiudades.get(position).getNombre());
             }
 

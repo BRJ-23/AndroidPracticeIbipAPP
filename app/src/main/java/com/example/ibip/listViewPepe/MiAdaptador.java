@@ -51,11 +51,11 @@ public class MiAdaptador extends BaseAdapter {
         int image = names.get(position).getBandera();
 
         // Referenciamos el elemento a modificar y lo rellenamos
-        TextView textView1 = (TextView) v.findViewById(R.id.nombre);
+        TextView textView1 = (TextView) v.findViewById(R.id.nombrePais);
         textView1.setText(nombre);
-        TextView textView2 = (TextView) v.findViewById(R.id.descripcion);
+        TextView textView2 = (TextView) v.findViewById(R.id.capitalPais);
         textView2.setText(desc);
-        ImageView iv = (ImageView) v.findViewById(R.id.imagenCiudad);
+        ImageView iv = (ImageView) v.findViewById(R.id.imagenPais);
         iv.setImageResource(image);
 
         return v;

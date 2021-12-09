@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
        setContentView(R.layout.listview_pepe_inflate_activity);
-        listview = (ListView) findViewById(R.id.listView);
+        listview = (ListView) findViewById(R.id.listViewPais);
         listaCiudades = new ArrayList<Nombres>();
         llenar();
 
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity  {
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                TextView tv = findViewById(R.id.seleccion);
+                TextView tv = findViewById(R.id.seleccionPais);
                 tv.setText("has pulsado" + listaCiudades.get(position).getNombre());
             }
         });
