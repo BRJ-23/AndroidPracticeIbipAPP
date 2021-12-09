@@ -159,6 +159,13 @@
           android:layout_height="wrap_content"
           android:onClick="listviewpepe"
           android:text="Listview Inflate PP" />
+
+      <Button
+          android:id="@+id/button17"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:onClick="spinnerpepe"
+          android:text="Spinner Inflate Pepe" />
     </LinearLayout>
   </ScrollView>
 
