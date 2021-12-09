@@ -179,6 +179,12 @@ public class Main extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void menuoverflow(View view){
+        Intent i = new Intent(this, com.example.ibip.menuOverflow.MainActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+    }
+
 
 
 }
