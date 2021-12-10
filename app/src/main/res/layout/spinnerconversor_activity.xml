@@ -35,14 +35,14 @@
             android:hint="Introduce numero"
             android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/spinerciudad"
+            app:layout_constraintEnd_toStartOf="@+id/spinerMedidas"
             app:layout_constraintHorizontal_bias="0.307"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.035" />
 
         <Spinner
-            android:id="@+id/spinerciudad"
+            android:id="@+id/spinerMedidas"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
             android:background="#DA1A2C4E"
@@ -98,7 +98,7 @@
             app:layout_constraintVertical_bias="0.53" />
 
         <TextView
-            android:id="@+id/resulciudad"
+            android:id="@+id/resulMedidas5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"

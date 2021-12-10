@@ -26,14 +26,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.spinnerconversor_activity);
-        spinner = (Spinner) findViewById(R.id.spinerciudad);
+        spinner = (Spinner) findViewById(R.id.spinerMedidas);
         et1 = (EditText) findViewById(R.id.numMedida);
 
         resultMedida = (TextView) findViewById(R.id.resulMedidas);
         resultMedida2 = (TextView)findViewById(R.id.resulMedidas2);
         resultMedida3 =(TextView) findViewById(R.id.resulMedidas3);
         resultMedida4 = (TextView)findViewById(R.id.resulMedidas4);
-        resultMedida5 =(TextView) findViewById(R.id.resulciudad);
+        resultMedida5 =(TextView) findViewById(R.id.resulMedidas5);
         String [] operaciones = {"Metro","Kilometro","Yardas","Pulgadas","Pies",};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.spinner_item, operaciones );
@@ -77,6 +77,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+
 
     private void calcular(){
         checker = et1.getText().toString();
