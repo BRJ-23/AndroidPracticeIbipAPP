@@ -1,4 +1,4 @@
-package com.example.ibip.pasarDatosActivityResultadoAtrasCalculadora;
+package com.example.ibip.calculadorapasarDatosActivityResultadoAtras;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.ibip.R;
-import com.example.ibip.pasarDatosEntreActivity.MainActivity;
 
 public class MainActivity2 extends AppCompatActivity {
     private TextView tv1;
@@ -19,7 +18,7 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pasardatosresultado_2_activity);
+        setContentView(R.layout.calculator_2_pasardatosresultadoyvolver_activity);
         tv1 = findViewById(R.id.mensajerecibido);
         tv2 = findViewById(R.id.mensajerecibido2);
         result = findViewById(R.id.resultadofgf);
@@ -55,7 +54,7 @@ public class MainActivity2 extends AppCompatActivity {
 
     // Método botón regresar
     public void volverresultado(View view){
-        Intent i = new Intent(this, com.example.ibip.pasarDatosActivityResultadoAtrasCalculadora.MainActivity.class);
+        Intent i = new Intent(this, com.example.ibip.calculadorapasarDatosActivityResultadoAtras.MainActivity.class);
         i.putExtra("llaveReferenciaBack", result.getText().toString());
         startActivity(i);
     }

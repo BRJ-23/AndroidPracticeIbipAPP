@@ -1,4 +1,4 @@
-package com.example.ibip.pasarDatosActivityResultadoAtrasCalculadora;
+package com.example.ibip.calculadorapasarDatosActivityResultadoAtras;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pasardatosresultado_1_activity);
+        setContentView(R.layout.calculator_1_pasardatosresultadoyvolver_activity);
         et1 = (EditText) findViewById(R.id.mensaje);  //Lo que introduce el usuario
         et2 = (EditText) findViewById(R.id.mensaje2);
         result = (TextView) findViewById(R.id.resultadoText);
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Método para enviar
     public void enviarTextoAOtraActivity(View view){
-        Intent i = new Intent(this, com.example.ibip.pasarDatosActivityResultadoAtrasCalculadora.MainActivity2.class);
+        Intent i = new Intent(this, com.example.ibip.calculadorapasarDatosActivityResultadoAtras.MainActivity2.class);
         i.putExtra("llaveReferencia", et1.getText().toString());  //Etiqueta de referencia
         i.putExtra("llaveReferencia2",et2.getText().toString());
         startActivity(i);

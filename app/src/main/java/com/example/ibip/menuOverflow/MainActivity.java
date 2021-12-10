@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     //Método para mostrar y ocultar el menú
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menuoverflow, menu);
+        //getMenuInflater().inflate(R.menu.menuoverflow2, menu);
         return true;
     }
 
@@ -36,5 +37,19 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+
+   /* public boolean newoptions (MenuItem item){
+        int id = item.getItemId();
+
+        if (id == R.id.item) {
+            Toast.makeText(this, "Opción 1", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.item2) {
+            Toast.makeText(this, "Opción 2", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.item3) {
+            Toast.makeText(this, "Opción 3", Toast.LENGTH_SHORT).show();
+        }
+        return super.onOptionsItemSelected(item);
+    }*/
 
 }

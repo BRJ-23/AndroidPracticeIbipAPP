@@ -121,7 +121,7 @@ public class  Main extends AppCompatActivity {
     }
 
     public void pasarDatosResultado(View view){
-        Intent i = new Intent(this, com.example.ibip.pasarDatosActivityResultadoAtrasCalculadora.MainActivity.class);
+        Intent i = new Intent(this, com.example.ibip.calculadorapasarDatosActivityResultadoAtras.MainActivity.class);
         i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
     }

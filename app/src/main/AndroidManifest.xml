@@ -40,10 +40,10 @@
             android:name=".spinnerConversor.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".pasarDatosActivityResultadoAtrasCalculadora.MainActivity2"
+            android:name=".calculadorapasarDatosActivityResultadoAtras.MainActivity2"
             android:exported="true" />
         <activity
-            android:name=".pasarDatosActivityResultadoAtrasCalculadora.MainActivity"
+            android:name=".calculadorapasarDatosActivityResultadoAtras.MainActivity"
             android:exported="true" />
         <activity
             android:name=".colorpicker.MainActivity"
