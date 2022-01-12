@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#191818"
-    tools:context=".dialogos.DialogoActivity">
+    tools:context=".PrimerTrimestre.dialogos.DialogoActivity">
 
   <Button
       android:id="@+id/button_show"

@@ -11,75 +11,80 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <!-- Aquí es para mostrar/ocultar el menú por "DayNight.DarkActionBar" -->
         <activity
-            android:name=".menuOverflow.MainActivity"
+            android:name="ascreenDOS.MainDOS"
             android:exported="true" />
         <activity
-            android:name=".spinnerPaisBandera.MainActivity"
+            android:name="asMainMenu.MainMenu"
             android:exported="true" />
         <activity
-            android:name=".Utilities___X.adapter.MainActivity"
+            android:name=".CrearFragmento.MainActivity"
+            android:exported="true" /> <!-- Aquí es para mostrar/ocultar el menú por "DayNight.DarkActionBar" -->
+        <activity
+            android:name=".PrimerTrimestre.spinnerPaisBandera.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".spinnerPepe.MainActivity"
+            android:name=".PrimerTrimestre.adapter.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".listViewPepe.MainActivity"
+            android:name=".PrimerTrimestre.spinnerPepe.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".enviarsms.MainActivity"
+            android:name=".PrimerTrimestre.listViewPepe.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PrimerTrimestre.enviarsms.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".spinnerCiudadEstadoObj.MainActivity"
+            android:name=".PrimerTrimestre.spinnerCiudadEstadoObj.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".calendarAndVideoWidget.MainActivity"
+            android:name=".PrimerTrimestre.calendarAndVideoWidget.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".spinnerConversor.MainActivity"
+            android:name=".PrimerTrimestre.spinnerConversor.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".calculadorapasarDatosActivityResultadoAtras.MainActivity2"
+            android:name=".PrimerTrimestre.calculadorapasarDatosActivityResultadoAtras.MainActivity2"
             android:exported="true" />
         <activity
-            android:name=".calculadorapasarDatosActivityResultadoAtras.MainActivity"
+            android:name=".PrimerTrimestre.calculadorapasarDatosActivityResultadoAtras.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".colorpicker.MainActivity"
+            android:name=".ibipExtra.colorpicker.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".sharedPreferencesLogin.MainActivity"
+            android:name=".ibipExtra.sharedPreferencesLogin.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".gridviewfrutas.GridItemActivity"
+            android:name=".PrimerTrimestre.gridviewfrutas.GridItemActivity"
             android:exported="true" />
         <activity
-            android:name=".gridviewfrutas.MainActivity"
+            android:name=".PrimerTrimestre.gridviewfrutas.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".gridlayoutButtons.MainActivity"
+            android:name=".PrimerTrimestre.gridlayoutButtons.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".pasarDatosEntreActivity.MainActivity2"
+            android:name=".PrimerTrimestre.pasarDatosEntreActivity.MainActivity2"
             android:exported="true" />
         <activity
-            android:name=".pasarDatosEntreActivity.MainActivity"
+            android:name=".PrimerTrimestre.pasarDatosEntreActivity.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".cicloVida.MainActivity"
+            android:name=".PrimerTrimestre.cicloVida.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".listviewcustom.MainActivity"
+            android:name=".PrimerTrimestre.listviewcustom.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".listview.MainActivity"
+            android:name=".PrimerTrimestre.listview.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".seleccion.MainActivity"
+            android:name=".PrimerTrimestre.seleccion.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".intro.Intro"
+            android:name=".ibipExtra.intro.Intro"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -88,19 +93,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".dialogos.DialogoActivity"
+            android:name=".PrimerTrimestre.dialogos.DialogoActivity"
             android:exported="true" />
         <activity
-            android:name=".recyclerview.MainActivity"
+            android:name=".PrimerTrimestre.recyclerview.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".calculadora.MainActivity"
+            android:name=".PrimerTrimestre.calculadora.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".webview.MainActivity2"
+            android:name=".PrimerTrimestre.webview.MainActivity2"
             android:exported="true" />
         <activity
-            android:name=".ascreen.Main"
+            android:name=".ibipExtra.ascreen.Main"
             android:exported="true" />
     </application>
 

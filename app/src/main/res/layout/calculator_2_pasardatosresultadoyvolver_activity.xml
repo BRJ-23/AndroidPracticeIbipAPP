@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:orientation="vertical"
-    tools:context=".calculadorapasarDatosActivityResultadoAtras.MainActivity2">
+    tools:context=".PrimerTrimestre.calculadorapasarDatosActivityResultadoAtras.MainActivity2">
 
     <LinearLayout
         android:layout_width="200dp"

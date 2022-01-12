@@ -7,7 +7,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:textAlignment="center"
-    tools:context=".spinnerConversor.MainActivity">
+    tools:context=".PrimerTrimestre.spinnerConversor.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"

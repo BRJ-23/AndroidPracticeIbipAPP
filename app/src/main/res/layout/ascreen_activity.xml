@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/backmetal"
     android:orientation="vertical"
-    tools:context=".ascreen.Main">
+    tools:context=".ibipExtra.ascreen.Main">
 
 
   <LinearLayout
@@ -186,7 +186,6 @@
           android:id="@+id/button20"
           android:layout_width="200dp"
           android:layout_height="wrap_content"
-          android:onClick="menuoverflow"
           android:text="Menu OverFlow" />
 
     </LinearLayout>

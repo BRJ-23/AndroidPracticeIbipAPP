@@ -6,7 +6,7 @@
     android:background="@drawable/loginpaper"
     android:orientation="vertical"
 
-    tools:context=".sharedPreferencesLogin.MainActivity"
+    tools:context=".ibipExtra.sharedPreferencesLogin.MainActivity"
     >
 
     <LinearLayout

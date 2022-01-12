@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#000000"
     android:id="@+id/introbox"
-    tools:context=".intro.Intro">
+    tools:context=".ibipExtra.intro.Intro">
 
     <ImageView
         android:id="@+id/mainLogo"
