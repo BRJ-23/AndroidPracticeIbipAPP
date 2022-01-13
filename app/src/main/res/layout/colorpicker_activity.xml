@@ -11,7 +11,8 @@
         android:id="@+id/color"
         android:layout_width="match_parent"
         android:layout_height="350dp"
-        android:src="@drawable/panelcolor" />
+        android:src="@drawable/panelcolorx"
+       />
 
     <TextView
         android:id="@+id/colorvalue"

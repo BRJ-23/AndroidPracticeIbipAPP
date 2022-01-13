@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".FragmentMaster.MainActivity"
+            android:exported="true" />
+        <activity
             android:name="ascreenDOS.MainDOS"
             android:exported="true" />
         <activity

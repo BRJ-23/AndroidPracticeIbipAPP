@@ -43,4 +43,10 @@ public class MainDOS extends AppCompatActivity {
         i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
     }
+
+    public void fragmaster(View view){
+        Intent i = new Intent(this, com.example.ibip.FragmentMaster.MainActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+    }
 }
