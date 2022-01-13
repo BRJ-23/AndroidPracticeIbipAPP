@@ -30,13 +30,14 @@
         android:layout_width="match_parent"
         android:layout_height="496dp"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="vertical"
+        android:weightSum="0">
 
         <Button
             android:id="@+id/button22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="0"
             android:onClick="primer"
             android:text="Primer Trimestre" />
 
@@ -44,7 +45,7 @@
             android:id="@+id/button23"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="0"
             android:onClick="segundo"
             android:text="Segundo Trimestre" />
     </LinearLayout>
