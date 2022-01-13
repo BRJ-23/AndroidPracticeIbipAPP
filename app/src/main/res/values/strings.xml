@@ -23,4 +23,6 @@
     <string name="multiplicar">Multiplicar</string>
     <string name="dividir">Dividir</string>
     <string name="volver">Volver</string>
+    <string name="menu1">1. Nuggets</string>
+    <string name="menu2">2. McFlurry</string>
 </resources>

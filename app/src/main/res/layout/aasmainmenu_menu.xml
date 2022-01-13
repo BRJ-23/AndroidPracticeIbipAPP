@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:onClick="primer"
-            android:text="Primer Trimestre" />
+            android:text="@string/menu1" />
 
         <Button
             android:id="@+id/button23"
@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:onClick="segundo"
-            android:text="Segundo Trimestre" />
+            android:text="@string/menu2" />
     </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
